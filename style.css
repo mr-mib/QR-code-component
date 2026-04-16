@@ -24,13 +24,14 @@ body {
   align-items: center;
 
   padding: clamp(0.75rem, 1vw, 2rem);
-  gap: inherit;
+  gap: 1rem;
   width: clamp(280px, 90%, 375px);
   box-sizing: border-box;
 
   background-color: var(--bg-card);
 
   border-radius: 1rem;
+  overflow: hidden;
 }
 
 .card__figure {
