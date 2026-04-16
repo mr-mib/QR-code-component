@@ -1,5 +1,5 @@
 :root {
-  --base-font-size: 16;
+  --base-font-size: 16px;
 
   --color-body-bg: hsl(212, 45%, 89%);
   --color-card-bg: #fff;
@@ -27,7 +27,7 @@ body {
 
   padding: clamp(0.75rem, 1vw, 2rem);
   gap: 1rem;
-  width: clamp(17.5rem, 50vh, 23.4375rem);
+  width: clamp(17.5rem, 50vw, 23.4375rem);
   box-sizing: border-box;
 
   background-color: var(--color-card-bg);
@@ -62,6 +62,6 @@ body {
   font-size: 0.8875rem;
 }
 
-.footer_link {
+.footer__link {
   color: var(--color-text);
 }
