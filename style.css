@@ -1,7 +1,9 @@
 :root {
+  --base-font-size: 16;
+
   --color-body-bg: hsl(212, 45%, 89%);
   --color-card-bg: #fff;
-  --color-link: hsl(216, 15%, 48%);
+  --color-card-desc: hsl(216, 15%, 48%);
   --color-text: hsl(218, 44%, 22%);
 }
 
@@ -25,7 +27,7 @@ body {
 
   padding: clamp(0.75rem, 1vw, 2rem);
   gap: 1rem;
-  width: clamp(280px, 90%, 375px);
+  width: clamp(17.5rem, 50vh, 23.4375rem);
   box-sizing: border-box;
 
   background-color: var(--color-card-bg);
@@ -53,13 +55,13 @@ body {
 .card__description {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--color-link);
+  color: var(--color-card-desc);
 }
 
 .footer__text {
   font-size: 0.8875rem;
 }
 
-.footer a {
+.footer_link {
   color: var(--color-text);
 }
