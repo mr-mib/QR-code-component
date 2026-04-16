@@ -13,8 +13,6 @@ body {
   justify-content: center;
   align-items: center;
 
-  height: 100vh;
-
   gap: var(--base-font-size);
 
   background-color: var(--color-body-bg);
