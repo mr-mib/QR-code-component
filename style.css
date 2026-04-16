@@ -1,8 +1,8 @@
 :root {
-  --bg-body: hsl(212, 45%, 89%);
-  --bg-card: #fff;
-  --col-title: hsl(216, 15%, 48%);
-  --col-text: hsl(218, 44%, 22%);
+  --color-body-bg: hsl(212, 45%, 89%);
+  --color-card-bg: #fff;
+  --color-link: hsl(216, 15%, 48%);
+  --color-text: hsl(218, 44%, 22%);
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   align-items: center;
   gap: 1rem;
 
-  background-color: var(--bg-body);
+  background-color: var(--color-body-bg);
 
   font-family: "Outfit", sans-serif;
   text-align: center;
@@ -28,7 +28,7 @@ body {
   width: clamp(280px, 90%, 375px);
   box-sizing: border-box;
 
-  background-color: var(--bg-card);
+  background-color: var(--color-card-bg);
 
   border-radius: 1rem;
   overflow: hidden;
@@ -40,7 +40,7 @@ body {
 
 .card__image {
   width: 100%;
-  margin-block-end: 1rem;
+  margin-block-end: clamp(0.75rem, 1.5vw + 0.5rem, 1.5rem);
 
   border-radius: inherit;
 }
@@ -53,7 +53,7 @@ body {
 .card__description {
   font-size: 1rem;
   font-weight: 400;
-  color: var(--col-title);
+  color: var(--color-link);
 }
 
 .footer__text {
@@ -61,5 +61,5 @@ body {
 }
 
 .footer a {
-  color: var(--col-text);
+  color: var(--color-text);
 }
