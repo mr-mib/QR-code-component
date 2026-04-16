@@ -17,7 +17,6 @@ body {
   background-color: var(--color-body-bg);
 
   font-family: "Outfit", sans-serif;
-  text-align: center;
 }
 
 .card {
@@ -32,6 +31,8 @@ body {
 
   background-color: var(--color-card-bg);
 
+  text-align: center;
+
   border-radius: var(--base-font-size);
   overflow: hidden;
 }
@@ -41,6 +42,8 @@ body {
 }
 
 .card__image {
+  object-fit: cover;
+
   width: 100%;
   margin-block-end: clamp(0.75rem, 1.5vw, 1.5rem);
 
